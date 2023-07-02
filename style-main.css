@@ -22,10 +22,11 @@
     .contact-form-text p {
         font-size: 12px !important;
     }
-
-    .fb-p {
-        width: 400px !important;
-    }
+	
+	.line {
+		width: 250px !important;
+	}
+	
 }
 
 * {
