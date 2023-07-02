@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <title>Sklep internetowy</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="style-main.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abyssinica+SIL&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap">
+    </head>
+    <body>
+        <header>
+            <div class="header-div">
+                <div class="header-logo"> 
+                    <img class="logo" src="pergoalsLogo.png" alt="logo"/>
+                </div>
+                <nav style="margin-left: 19px;">
+                    <ul>
+                        <li>
+                            <a th:href="@{/pergolas}">Strona główna</a>
+                        </li>
+                        <li>
+                            <a th:href="@{/pergolas/products}">Produkty</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-line"> </div>
+        </header>
+        <main>
+            <div class="under-header"> </div>
+            <div class="main-image">
+                <div style="display: flex; justify-content: flex-start; align-content: center; min-height: 7; height: 100%;" class="container">
+                    <div class="main-image-text" style="font-size: 70px;">Styl, Wygoda, 
+                        <br>Jendym słowem Pergole.
+                        <h3 style="font-size: 28px; margin-top: 25px;"> Podnieś twój ogród na wyższy poziom: odkryj naszą ekskluzywną kolekcję Pergol! </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="about-us asd">
+                <div class="about-us-text"> Nasza firma specjalizuje się w sprzedaży
+                    pergoli ogrodowych, które są idealnym rozwiązaniem dla osób ceniących
+                    sobie komfort i stylowe wykończenie swojego ogrodu lub tarasu.
+                    Oferujemy szeroki wybór pergoli wykonanych z wysokiej jakości
+                    materiałów, w różnych rozmiarach i kolorach, aby sprostać wymaganiom
+                    naszych klientów. Wszystkie nasze produkty są solidnie wykonane i
+                    wytrzymałe na warunki atmosferyczne, dzięki czemu będą służyć przez
+                    wiele lat. Zapewniamy również fachowe doradztwo oraz montaż pergoli na
+                    życzenie klienta. Nasza firma stawia na zadowolenie klienta i dlatego
+                    oferujemy konkurencyjne ceny i wysoką jakość usług. 
+</div>
+            </div>
+            <h1 style="text-align: center; padding: 47px 14px 14px;">Najpopularniejsze produkty</h1>
+            <div class="line"></div>
+            <div class="best-products container" style="flex-wrap: wrap;" data-pg-name="best-products">
+                <div class="product">
+                    <div class="product-img">
+                        <div class="pg-empty-placeholder product-img"></div>
+                    </div>                     
+                    <a th:href="@{'/pergolas/1'}"></a> 
+                    <h3>Produkt</h3>
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. asd as dsad asda dasdasdasd asdasds adasdsa asdas asd as asd asd asd as d adsd as das das das das das dsa d as d asd as das d asd as das</p>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <div class="pg-empty-placeholder product-img"></div>
+                    </div>                     
+                    <a th:href="@{'/pergolas/1'}"></a> 
+                    <h3>Produkt</h3>
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. asd as dsad asda dasdasdasd asdasds adasdsa asdas asd as asd asd asd as d adsd as das das das das das dsa d as d asd as das d asd as das</p>
+                </div>
+                <div class="product">
+                    <div class="pg-empty-placeholder product-img"></div>
+                    <a th:href="@{'/pergolas/1'}"></a> 
+                    <h3>Produkt</h3>
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. asd as dsad asda dasdasdasd asdasds adasdsa asdas asd as asd asd asd as d  adsd as das das das das das dsa d as d asd as das d asd as  das</p>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div style="background-color: rgba(182, 182, 182, 0.4); background-repeat: no-repeat; background-position: center center; background-size: inherit;" data-pg-name="contact">
+                <div style="justify-content: space-evenly; height: 50vw; max-height: 340px;" class="container">
+                    <div class="contact" style="border-top-left-radius: 5vw; border-bottom-right-radius: 5vw; display: inherit;">
+                        <img src="phone1.png">
+                        <div class="content">
+                            <h2>Numer kontaktowy</h2>
+                            <p>+48 124 124 123</p>
+                        </div>
+                    </div>
+                    <div class="contact" style="border-radius: 3vw;">
+                        <img src="mail.png">
+                        <div class="content">
+                            <h2>Email</h2>
+                            <p>info@pergoals.com</p>
+                        </div>
+                    </div>
+                    <div class="contact" style="border-top-right-radius: 5vw; border-bottom-left-radius: 5vw;">
+                        <img src="time-left.png">
+                        <div class="content">
+                            <h2>Godziny otwarcia</h2>
+                            <p>Pon - Pt: 9 - 16<br>Sob - 9 - 13<br>Niedz: Nieczynne</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div data-pg-name="photos">
+                <div style="justify-content: center; align-items: flex-start;" class="container">
+                    <div class="photos">
+                        <img src="background-main.png">
+                        <img src="photo.jpg">
+                        <img src="background-main.png">
+                    </div>
+                    <div class="photos">
+                        <img src="background-main.png">
+                        <img src="background-main.png">
+                        <img src="photo.jpg">
+                    </div>
+                    <div class="photos">
+                        <img src="photo.jpg">
+                        <img src="background-main.png">
+                        <img src="background-main.png">
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div style="background-color: rgba(255, 180, 60, 0.83); background-repeat: no-repeat; background-position: center center; background-size: inherit;" data-pg-name="fb">
+                <div style="justify-content: center; align-items: center; flex-wrap: wrap;" class="container">
+                    <div style="margin: 50px;">
+                        <div id="fb-root"></div>
+                        <script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&amp;version=v17.0" nonce="vpXC0DH9"></script>
+                        <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100093718269830" data-tabs="timeline" data-small-header="false" data-width="500px" data-height="650px" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/profile.php?id=100093718269830" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/profile.php?id=100093718269830">Pergoals</a>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div style="max-width: 500px;">
+                        <p style="margin: 25px; font-family: 'Barlow Condensed', sans-serif; text-align: justify; font-size: 20px;">Zapraszamy na nasz oficjalny Facebook Fanpage, gdzie znajdziesz najnowsze aktualności dotyczące naszych projektów pergol. Na naszym fanpage&apos;u regularnie udostępniamy informacje na temat naszych najnowszych realizacji, inspiracje, porady dotyczące projektowania i budowy pergol oraz wiele więcej.</p>
+                        <p style="margin: 25px; font-family: 'Barlow Condensed', sans-serif; text-align: justify; font-size: 20px;">Bądź na bieżąco z naszymi projektami pergol, które obejmują różnorodne style, materiały i innowacyjne rozwiązania. Przez nasz Facebook Fanpage będziesz mógł zobaczyć zdjęcia i opisy naszych najnowszych prac, dowiedzieć się o naszych współpracach i projektach specjalnych oraz znaleźć informacje kontaktowe, jeśli jesteś zainteresowany współpracą z nami.</p>
+                        <p style="margin: 25px; font-family: 'Barlow Condensed', sans-serif; text-align: justify; font-size: 20px;">Dołącz do naszej społeczności na Facebooku i bądź pierwszy, który otrzyma informacje o naszych najnowszych projektach pergol. Kliknij &quot;Polub stronę&quot; i nie przegap żadnej aktualności związanej z naszymi wykonanymi projektami pergol. Czekamy na Ciebie na naszym Facebook Fanpage!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div data-pg-name="contact-form">
+                <div class="container" style="flex-wrap: wrap; margin-bottom: 40px;">
+                    <div style="max-width: 600px;">
+                        <p style="margin-left: auto; margin-right: auto; margin-bottom: 30px; text-align: justify; font-family: 'Barlow Condensed', sans-serif; font-size: 17px;">Zapraszamy do wysyłania zapytań odnośnie naszych produktów! Jesteśmy tutaj, aby odpowiedzieć na Twoje pytania i zapewnić Ci niezbędne informacje. Nie wahaj się skontaktować z nami poprzez nasz formularz, aby uzyskać szczegółowe informacje na temat naszych produktów. Z przyjemnością pomożemy Ci wybrać odpowiedni produkt dopasowany do Twoich potrzeb. Nie czekaj dłużej - skorzystaj z naszego formularza i otrzymaj profesjonalną pomoc już teraz!</p>
+                        <img src="background-main.png" style="max-width: 600px;">
+                    </div>
+                    <form style="margin-left: auto; margin-right: auto; margin-top: 10px;">
+                        <div class="form-group">
+                            <label for="name">Imię i nazwisko:</label>
+                            <br>
+                            <input type="text" id="name" name="name" required style="width: 400px; height: 30px; margin: 5px auto 15px;">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Adres e-mail:</label>
+                            <br>
+                            <input type="email" id="email" name="email" required style="width: 400px; height: 30px; margin-top: 5px; margin-bottom: 15px;">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Wiadomość:</label>
+                            <br>
+                            <textarea id="message" name="message" rows="5" required style="width: 400px; height: 300px; margin-top: 5px; resize: none; margin-bottom: 15px;"></textarea>
+                        </div>
+                        <button type="submit" style="width: 400px; height: 30px;">Wyślij zapytanie</button>
+                    </form>
+                </div>
+            </div>
+            <div class="line"></div>
+        </main>
+        <footer>
+            <p style="font-family: 'Abyssinica SIL', serif;">© 2023 Pergoals</p>
+        </footer>
+    </body>
+</html>

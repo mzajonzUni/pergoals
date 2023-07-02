@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Sklep internetowy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style-main.css">
+</head>
+<body>
+<header>
+    <div class="header-div">
+        <div class="header-logo">
+            <img class="logo" src="/photos/pergoalsLogo.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a th:href="@{/pergolas}">Strona główna</a></li>
+                <li><a th:href="@{/pergolas/products}">Produkty</a></li>
+                <li><a th:href="@{/pergolas/send}">Zapytanie</a></li>
+                <li><a th:href="@{/users/account}">Konto</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-line">
+    </div>
+</header>
+
+<main>
+    <div class="under-header">
+    </div>
+    <div class="main-image">
+        <div class="main-image-text">
+            Real Estate Agency.
+            <br>
+            Near You.
+            <h3>
+                Now you can find more than 5,000+ property choices with our professional agents!
+            </h3>
+        </div>
+    </div>
+    <div class="about-us">
+        <div class="about-us-text">
+            Nasza firma specjalizuje się w sprzedaży pergoli ogrodowych, które są idealnym rozwiązaniem dla osób
+            ceniących sobie komfort i stylowe wykończenie swojego ogrodu lub tarasu. Oferujemy szeroki wybór pergoli
+            wykonanych z wysokiej jakości materiałów, w różnych rozmiarach i kolorach, aby sprostać wymaganiom naszych
+            klientów. Wszystkie nasze produkty są solidnie wykonane i wytrzymałe na warunki atmosferyczne, dzięki czemu
+            będą służyć przez wiele lat. Zapewniamy również fachowe doradztwo oraz montaż pergoli na życzenie klienta.
+            Nasza firma stawia na zadowolenie klienta i dlatego oferujemy konkurencyjne ceny i wysoką jakość usług.
+        </div>
+    </div>
+    <div class="best-products-label">
+        <h1>Najlepsze produkty</h1>
+    </div>
+    <div class="best-products">
+        <div class="product">
+            <a th:href="@{'/pergolas/2'}"></a>
+            <img src="https://via.placeholder.com/250x250.png?text=Product+1" alt="Product 1">
+            <h3>Produkt 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="price">$19.99</p>
+        </div>
+
+        <div class="product">
+            <a th:href="@{'/pergolas/1'}"></a>
+            <img src="https://via.placeholder.com/250x250.png?text=Product+2" alt="Product 2">
+            <h3>Produkt 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="price">$29.99</p>
+        </div>
+
+        <div class="product">
+            <a th:href="@{'/pergolas/1'}"></a>
+            <img src="https://via.placeholder.com/250x250.png?text=Product+3" alt="Product 3">
+            <h3>Produkt 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="price">$39.99</p>
+        </div>
+    </div>
+    <div class="square-container">
+        <div class="square">
+            <div class="square-content">
+                <img src="/photos/phone.png" alt="">
+                <div class="square-text">
+                    <h2>Numer telefonu</h2>
+                    <p>+48 123 456 789</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="square">
+            <div class="square-content">
+                <img src="/photos/mail.png" alt="">
+                <div class="square-text">
+                    <h2>Adres e-mail</h2>
+                    <p>example@email.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="square">
+            <div class="square-content">
+                <img src="/photos/time-left.png" alt="">
+                <div class="square-text">
+                    <h2>Godziny otwarcia</h2>
+                    <p>Poniedziałek - Piątek: 9:00-17:00<br>
+                        Sobota: 10:00-15:00<br>
+                        Niedziela: nieczynne</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    <div class="best-products">-->
+    <!--        <h1>-->
+    <!--            Najpopularniejsze produkty-->
+    <!--        </h1>-->
+    <!--        <div class="product" th:each="pergola : ${pergolas}">-->
+    <!--            <a th:href="@{'/pergolas/' + ${pergola.id}}">-->
+    <!--                <div class="image-container">-->
+    <!--                <img th:src="${pergola.img}" alt="Produkt 1">-->
+    <!--                </div>-->
+    <!--                <h3 th:text="${pergola.name}"></h3>-->
+    <!--                <p>Cena: <span th:text="${pergola.price}"></span> zł</p>-->
+    <!--            </a>-->
+    <!--        </div>-->
+    <!--    </div>-->
+</main>
+
+<footer>
+    <p>&copy; 2023 Pergoals</p>
+</footer>
+</body>
+</html>

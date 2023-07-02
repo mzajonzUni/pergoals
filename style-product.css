@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+body {
+    background-color: #fff;
+    min-width: 320px;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+header {
+    height: 80px;
+    background: linear-gradient(to top, #fcb434 10px, transparent 4px) 0 100%,
+            linear-gradient(to top, #746c6c 10px, transparent 4px) 100% 100%;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    transition: all 0.3s ease-in-out;
+}
+
+.under-header {
+    height: 80px;
+    width: 100%;
+}
+
+header.sticky {
+    transform: translateY(-100%);
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #332F2F;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: rgba(255, 180, 60, 0.83);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .photos-min {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .photos-min {
+        display: inline-grid;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 500px;
+    height: 3px;
+    background-color: #ffb43c;
+    margin: 25px auto;
+}
+
+.photos-min {
+    display: inline-grid;
+    max-height: 450px;
+    height: 100%;
+}
+
+.photos-min img {
+    padding: 10px;
+    border: 1px solid #b2b2b2;
+    width: 100%;
+    max-width: 150px;
+    margin: 10px;
+}

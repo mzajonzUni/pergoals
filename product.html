@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <title>Sklep internetowy</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="style-product.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abyssinica+SIL&display=swap">
+        <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
+    </head>
+    <body>
+        <header>
+            <div class="header-div">
+                <div class="header-logo"> 
+                    <img class="logo" src="pergoalsLogo.png" alt="logo"/>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a th:href="@{/pergolas}">Strona główna</a>
+                        </li>
+                        <li>
+                            <a th:href="@{/pergolas/products}">Produkty</a>
+                        </li>
+                        <li>
+                            <a th:href="@{/pergolas/send}">Zapytanie</a>
+                        </li>
+                        <li>
+                            <a th:href="@{/users/account}">Konto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-line"> </div>
+        </header>
+        <main>
+            <div class="under-header"> </div>
+            <div class="container">
+                <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
+                    <div class="photos-min">
+                        <img src="http://pinegrow.com/placeholders/img17.jpg"/>
+                        <img src="http://pinegrow.com/placeholders/img17.jpg"/>
+                        <img src="http://pinegrow.com/placeholders/img17.jpg"/>
+                    </div>
+                    <img src="http://pinegrow.com/placeholders/img12.jpg" style="width: 100%; margin: 20px; max-width: 800px;"/>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div style="background: rgba(182, 182, 182, 0.4); background-image: url('pergoalsLogo2.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; background-origin: content-box; padding: 0.5%;" data-pg-name="upper footer">
+                <div class="container">
+                    <div style="display: flex; width: 100%; align-items: center; justify-content: flex-end; float: right; padding: 20px; height: 5vw;">
+                        <div style="display: flex;">
+</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p style="font-family: 'Abyssinica SIL', serif;">© 2023 Pergoals</p>
+        </footer>
+        <script src="pgia/lib/pgia.js"></script>
+    </body>
+</html>
