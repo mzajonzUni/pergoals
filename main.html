@@ -35,15 +35,15 @@
             <div class="main-image">
                 <div style="display: flex; justify-content: flex-start; align-content: center; min-height: 7; height: 100%;" class="container">
                     <div class="main-image-text" style="font-family: 'Abyssinica SIL', serif;">
-                        <p style="color: #ffffff; font-size: 70px;">Styl, Wygoda,</p>
-                        <p style="color: #ffffff; font-size: 70px;">
+                        <p style="color: #ffffff; font-size: 70px; padding-left: 30px;">Styl, Wygoda,</p>
+                        <p style="color: #ffffff; font-size: 70px; padding-left: 30px;">
     Jendym słowem Pergole.</p>
-                        <h3 style="margin-top: 25px; font-family: 'Barlow Condensed', sans-serif; letter-spacing: 2px;"> Podnieś twój ogród na wyższy poziom: odkryj naszą ekskluzywną kolekcję Pergol! </h3>
+                        <h3 style="margin-top: 25px; font-family: 'Barlow Condensed', sans-serif; letter-spacing: 2px; padding-left: 30px;"> Podnieś twój ogród na wyższy poziom: odkryj naszą ekskluzywną kolekcję Pergol! </h3>
                     </div>
                 </div>
             </div>
             <div class="about-us">
-                <p class="about-us-text">Nasza firma specjalizuje się w sprzedaży pergoli ogrodowych, które są idealnym rozwiązaniem dla osób ceniących sobie komfort i stylowe wykończenie swojego ogrodu lub tarasu. Oferujemy szeroki wybór pergoli wykonanych z wysokiej jakości materiałów, w różnych rozmiarach i kolorach, aby sprostać wymaganiom naszych klientów. Wszystkie nasze produkty są solidnie wykonane i wytrzymałe na warunki atmosferyczne, dzięki czemu będą służyć przez wiele lat. Zapewniamy również fachowe doradztwo oraz montaż pergoli na życzenie klienta. Nasza firma stawia na zadowolenie klienta i dlatego oferujemy konkurencyjne ceny i wysoką jakość usług.</p>
+                <p class="about-us-text" style="padding: 30px;">Nasza firma specjalizuje się w sprzedaży pergoli ogrodowych, które są idealnym rozwiązaniem dla osób ceniących sobie komfort i stylowe wykończenie swojego ogrodu lub tarasu. Oferujemy szeroki wybór pergoli wykonanych z wysokiej jakości materiałów, w różnych rozmiarach i kolorach, aby sprostać wymaganiom naszych klientów. Wszystkie nasze produkty są solidnie wykonane i wytrzymałe na warunki atmosferyczne, dzięki czemu będą służyć przez wiele lat. Zapewniamy również fachowe doradztwo oraz montaż pergoli na życzenie klienta. Nasza firma stawia na zadowolenie klienta i dlatego oferujemy konkurencyjne ceny i wysoką jakość usług.</p>
             </div>
             <p class="best-product-p best-products-text">Najpopularniejsze produkty</p>
             <div class="line"></div>
@@ -119,7 +119,7 @@
             </div>
             <div class="line"></div>
             <div style="background-color: rgba(255, 180, 60, 0.83); background-repeat: no-repeat; background-position: center center; background-size: inherit;" data-pg-name="fb">
-                <div style="justify-content: center; align-items: center; flex-wrap: wrap;" class="container">
+                <div class="container">
                     <div style="margin: 50px;">
                         <div id="fb-root"></div>
                         <script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&amp;version=v17.0" nonce="vpXC0DH9"></script>
@@ -139,27 +139,29 @@
             <div class="line"></div>
             <div data-pg-name="contact-form">
                 <div class="container" style="flex-wrap: wrap; margin-bottom: 40px;">
-                    <div style="max-width: 600px;" class="contact-form-text">
-                        <p style="margin-left: auto; margin-right: auto; margin-bottom: 30px; text-align: justify; font-family: 'Barlow Condensed', sans-serif; font-size: 17px;">Zapraszamy do wysyłania zapytań odnośnie naszych produktów! Jesteśmy tutaj, aby odpowiedzieć na Twoje pytania i zapewnić Ci niezbędne informacje. Nie wahaj się skontaktować z nami poprzez nasz formularz, aby uzyskać szczegółowe informacje na temat naszych produktów. Z przyjemnością pomożemy Ci wybrać odpowiedni produkt dopasowany do Twoich potrzeb. Nie czekaj dłużej - skorzystaj z naszego formularza i otrzymaj profesjonalną pomoc już teraz!</p>
+                    <div style="max-width: 600px; width: 100%; margin-left: auto; margin-right: auto;" class="contact-form-text">
+                        <div style="display: flex; padding: 15px;">
+                            <p style="margin-left: auto; margin-right: auto; margin-bottom: 30px; text-align: justify; font-family: 'Barlow Condensed', sans-serif; font-size: 17px; display: flex;">Zapraszamy do wysyłania zapytań odnośnie naszych produktów! Jesteśmy tutaj, aby odpowiedzieć na Twoje pytania i zapewnić Ci niezbędne informacje. Nie wahaj się skontaktować z nami poprzez nasz formularz, aby uzyskać szczegółowe informacje na temat naszych produktów. Z przyjemnością pomożemy Ci wybrać odpowiedni produkt dopasowany do Twoich potrzeb. Nie czekaj dłużej - skorzystaj z naszego formularza i otrzymaj profesjonalną pomoc już teraz!</p>
+                        </div>
                         <img src="background-main.png" style="max-width: 600px;">
                     </div>
-                    <form style="margin-left: auto; margin-right: auto; margin-top: 10px;">
+                    <form style="margin-left: auto; margin-top: 10px; margin-right: auto;">
                         <div class="form-group">
                             <label for="name">Imię i nazwisko:</label>
                             <br>
-                            <input type="text" id="name" name="name" required style="width: 400px; height: 30px; margin: 5px auto 15px;">
+                            <input type="text" id="name" name="name" required class="input">
                         </div>
                         <div class="form-group">
                             <label for="email">Adres e-mail:</label>
                             <br>
-                            <input type="email" id="email" name="email" required style="width: 400px; height: 30px; margin-top: 5px; margin-bottom: 15px;">
+                            <input type="email" id="email" name="email" required class="input">
                         </div>
                         <div class="form-group">
                             <label for="message">Wiadomość:</label>
                             <br>
-                            <textarea id="message" name="message" rows="5" required style="width: 400px; height: 300px; margin-top: 5px; resize: none; margin-bottom: 15px;"></textarea>
+                            <textarea id="message" name="message" rows="5" required style="width: 300px; height: 300px; margin-top: 5px; resize: none; margin-bottom: 15px;"></textarea>
                         </div>
-                        <button type="submit" style="width: 400px; height: 30px;">Wyślij zapytanie</button>
+                        <button type="submit" class="button">Wyślij zapytanie</button>
                     </form>
                 </div>
             </div>

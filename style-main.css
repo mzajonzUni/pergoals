@@ -1,21 +1,38 @@
 @media only screen and (max-width: 800px) {
-    .main-image-text h3{
+    .main-image-text h3 {
         font-size: 15px !important;
     }
-	.main-image-text p{
+
+    .main-image-text p {
         font-size: 40px !important;
     }
-	.about-us-text {
+
+    .about-us-text {
         font-size: 17px !important;
     }
-	.best-product-p {
+
+    .best-product-p {
         font-size: 30px !important;
     }
-	.fb-text p{
+
+    .fb-text p {
         font-size: 15px !important;
     }
-	.contact-form-text p{
+
+    .contact-form-text p {
         font-size: 12px !important;
+    }
+
+    input {
+        background-color: black;
+    }
+
+    #message {
+        width: 250px;
+    }
+
+    button {
+        width: 250px;
     }
 }
 
@@ -315,5 +332,17 @@ footer {
 social-media {
     width: 5vw;
     height: 5vw;
+}
+
+.input {
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.button {
+    height: 30px;
+    width: 300px;
 }
 }
