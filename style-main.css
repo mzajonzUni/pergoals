@@ -1,3 +1,24 @@
+@media only screen and (max-width: 800px) {
+    .main-image-text h3{
+        font-size: 15px !important;
+    }
+	.main-image-text p{
+        font-size: 40px !important;
+    }
+	.about-us-text {
+        font-size: 17px !important;
+    }
+	.best-product-p {
+        font-size: 30px !important;
+    }
+	.fb-text p{
+        font-size: 15px !important;
+    }
+	.contact-form-text p{
+        font-size: 12px !important;
+    }
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -18,12 +39,6 @@
     justify-content: flex-start;
 }
 
-.main-image-text {
-    font-size: 50px;
-    color: white;
-    padding: 40px;
-}
-
 .main-image-text h3 {
     font-size: 20px;
     color: white;
@@ -38,7 +53,7 @@
 .about-us-text {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
     font-size: 25px;
     align-items: center;
     justify-content: center;
@@ -300,4 +315,5 @@ footer {
 social-media {
     width: 5vw;
     height: 5vw;
+}
 }
