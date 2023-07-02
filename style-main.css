@@ -22,18 +22,6 @@
     .contact-form-text p {
         font-size: 12px !important;
     }
-
-    input {
-        background-color: black;
-    }
-
-    #message {
-        width: 250px;
-    }
-
-    button {
-        width: 250px;
-    }
 }
 
 * {
